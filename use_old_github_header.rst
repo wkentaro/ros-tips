@@ -19,7 +19,7 @@ How To
 
 .. code:: sh
 
-  git clone https://github.com/itchyny/github-better-header ~/Documents
+  git clone https://github.com/itchyny/github-better-header ~/Documents/github-better-header
 
 2. Setup Chrome Extention
 
