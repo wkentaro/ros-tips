@@ -6,11 +6,11 @@ Motivation
 ----------
 **before**
 
-.. image:: ./image/use_old_github_header_2.png
+.. image:: image2.png
 
 **after**
 
-.. image:: ./image/use_old_github_header_1.png
+.. image:: image1.png
 
 
 How To
@@ -23,7 +23,7 @@ How To
 
 2. Setup Chrome Extention
 
-.. image:: ./image/use_old_github_header_0.png
+.. image:: image0.png
 
 
 Caution
