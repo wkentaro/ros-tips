@@ -2,7 +2,9 @@
 Tips
 ====
 
-* `ssh_config_forwarding <ssh_config_forwarding>`_
-* `use_old_github_header <use_old_github_header>`_
-* `git_svn <git_svn>`_
-.. * `template <template>`_
+Index
+=====
+
+* `Use Old GitHub Header <2015-06-21-use-old-github-header/README.rst>`_
+* `SSH Forwarding and ssh_cofig file <2015-06-28-ssh-forwarding-config/README.rst>`_
+* `Usage of git_svn <2015-06-28-usage-of-git-svn/README.rst>`_

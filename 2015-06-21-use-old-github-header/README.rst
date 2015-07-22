@@ -6,11 +6,11 @@ Motivation
 ----------
 **before**
 
-.. image:: image2.png
+.. image:: images/image2.png
 
 **after**
 
-.. image:: image1.png
+.. image:: images/image1.png
 
 
 How To
@@ -23,7 +23,7 @@ How To
 
 2. Setup Chrome Extention
 
-.. image:: image0.png
+.. image:: images/image0.png
 
 
 Caution
