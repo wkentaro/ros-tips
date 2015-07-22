@@ -38,18 +38,20 @@ def get_index():
         filename = os.path.join(tip_dir, 'README.rst')
         title = get_rst_h1(filename)
         line = '* `{label} <{url}>`_ ({date})'
-        line = line.format(label=title, url=filename, date=date)
+        url = os.path.join('tips', filename)
+        line = line.format(label=title, url=url, date=date)
         yield line
 
 
 def main():
-    index_list = get_index()
-
     lines = ['====', 'Tips', '====']
     lines.append('')  # space
-    lines.extend(reversed(list(index_list)))
+    index_list = get_index()
+    lines.extend(reversed(list(index_list)))  # index
     lines.append('')  # new lines at EOF
-    with open('README.rst', 'w') as f:
+
+    this_dir = os.path.dirname(os.path.abspath(__file__))
+    with open(os.path.join(this_dir, '../README.rst'), 'w') as f:
         f.write('\n'.join(lines))
 
 
