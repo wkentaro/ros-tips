@@ -37,8 +37,8 @@ def get_index():
         date = get_date(tip_dir)
         filename = os.path.join(tip_dir, 'README.rst')
         title = get_rst_h1(filename)
-        line = '* `{label} ({date}) <{url}>`_'
-        line = line.format(label=title, date=date, url=filename)
+        line = '* `{label} <{url}>`_ ({date})'
+        line = line.format(label=title, url=filename, date=date)
         yield line
 
 
