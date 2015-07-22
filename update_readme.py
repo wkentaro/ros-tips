@@ -21,15 +21,24 @@ def get_rst_h1(filename):
     return title
 
 
+def get_date(filename):
+    pattern = re.compile('^\d{4,4}-\d{1,2}-\d{1,2}')
+    m = pattern.match(filename)
+    date = filename[m.start():m.end()]
+    return date
+
+
 def get_index():
     files = os.listdir('.')
     pattern = re.compile('^\d{4,4}-\d{1,2}-\d{1,2}-.*')
-    for file_ in files:
-        if not (os.path.isdir(file_) and pattern.match(file_)):
+    for tip_dir in files:
+        if not (os.path.isdir(tip_dir) and pattern.match(tip_dir)):
             continue
-        filename = os.path.join(file_, 'README.rst')
+        date = get_date(tip_dir)
+        filename = os.path.join(tip_dir, 'README.rst')
         title = get_rst_h1(filename)
-        line = '* `{label} <{url}>`_'.format(label=title, url=filename)
+        line = '* `{label} ({date}) <{url}>`_'
+        line = line.format(label=title, date=date, url=filename)
         yield line
 
 
@@ -38,7 +47,7 @@ def main():
 
     lines = ['====', 'Tips', '====']
     lines.append('')  # space
-    lines.extend(index_list)
+    lines.extend(reversed(list(index_list)))
     lines.append('')  # new lines at EOF
     with open('README.rst', 'w') as f:
         f.write('\n'.join(lines))
