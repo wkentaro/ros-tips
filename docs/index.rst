@@ -1,5 +1,5 @@
-Welcome to wkentaro Tips
-========================
+wkentaro tips
+=============
 
 Contents:
 
@@ -7,4 +7,8 @@ Contents:
    :maxdepth: 1
    :caption: Tips
 
-   tips/camera_capture_with_python_and_opencv
+   tips/camera-capture-with-python-and-opencv
+   tips/create-plot-animation-with-python-and-matplotlib
+   tips/makefile-to-compile-c++-with-opencv
+   tips/ssh-forwarding-config
+   tips/use-old-github-header
