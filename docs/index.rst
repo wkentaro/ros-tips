@@ -1,6 +1,13 @@
 wkentaro tips
 =============
 
+Tips to be left as written text.
+Mainly about programming language, frameworks and tools.
+
+The code is open source, and `available on github`_.
+
+.. _available on github: http://github.com/wkentaro/tips
+
 .. toctree::
    :maxdepth: 1
 
