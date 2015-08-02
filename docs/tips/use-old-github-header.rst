@@ -2,8 +2,8 @@
 Use Old GitHub Header
 =====================
 
-Motivation
-----------
+What is this?
+-------------
 **before**
 
 .. image:: use-old-github-header/image_2.png
