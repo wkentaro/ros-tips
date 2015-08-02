@@ -25,7 +25,4 @@ How To
 
 .. image:: use-old-github-header/image_0.png
 
-
-Caution
--------
-Don't remove donloaded repository to keep using the extention.
+.. warning:: Don't remove donloaded repository to keep using the extention.
