@@ -11,6 +11,7 @@ The code is open source, and `available on github`_.
 .. toctree::
    :maxdepth: 1
 
+   tips/ja-tools-to-cd-for-pypkg
    tips/change-history-for-subdirectory-with-git.rst
    tips/usage-of-git-svn
    tips/use-old-github-header

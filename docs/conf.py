@@ -24,7 +24,7 @@ copyright = u'2015, Kentaro Wada'
 author = u'Kentaro Wada'
 version = '1.0'
 release = '1.0'
-language = 'en'
+# language = 'en'
 
 exclude_patterns = ['_build']
 
