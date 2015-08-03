@@ -163,8 +163,16 @@ latex_elements = {
 # The font size ('10pt', '11pt' or '12pt').
 #'pointsize': '10pt',
 
-# Additional stuff for the LaTeX preamble.
-#'preamble': '',
+    # Additional stuff for the LaTeX preamble.
+    'preamble': "".join((
+        '\usepackage[utf8]{inputenc}',
+        # NO-BREAK SPACE
+        '\DeclareUnicodeCharacter{00A0}{ }',
+        # BOX DRAWINGS LIGHT VERTICAL AND RIGHT
+        '\DeclareUnicodeCharacter{251C}{+}',
+        # BOX DRAWINGS LIGHT UP AND RIGHT
+        '\DeclareUnicodeCharacter{2514}{+}',
+    )),
 
 # Latex figure (float) alignment
 #'figure_align': 'htbp',
