@@ -3,10 +3,7 @@ Send mails from command line on Mac OS X 10.10 Yosemite
 
 Edit mail.cf
 ++++++++++++
-Add following line on /etc/postfix/main.cf. :code:`$ sudo vim /etc/postfix/main.cf`
-
-
-.. code-block :: pfmain
+Add following line on /etc/postfix/main.cf. :code:`$ sudo vim /etc/postfix/main.cf`::
 
    relayhost = [smtp.gmail.com]:587
    smtp_sasl_auth_enable = yes
@@ -18,9 +15,7 @@ Add following line on /etc/postfix/main.cf. :code:`$ sudo vim /etc/postfix/main.
 
 Add password config file
 ++++++++++++++++++++++++
-Add following line on /etc/postfix/sasl_passwd. :code:`$ sudo vim /etc/postfix/sasl_passwd`
-
-.. code-block :: pfmain
+Add following line on /etc/postfix/sasl_passwd. :code:`$ sudo vim /etc/postfix/sasl_passwd`::
 
    [smtp.gmail.com]:587 username@gmail.com:password
 
@@ -29,7 +24,7 @@ Reflect config change
 +++++++++++++++++++++
 Run the following commands.
 
-.. code-block :: bash
+.. code-block :: sh
 
    $ sudo chmod 600 /etc/postfix/sasl_passwd
    $ sudo postmap /etc/postfix/sasl_passwd
@@ -40,7 +35,7 @@ Run the following commands.
 Test
 ++++
 
-.. code-block :: bash
+.. code-block :: sh
 
    $ date | mail -s "testing" email@adderess.to
 

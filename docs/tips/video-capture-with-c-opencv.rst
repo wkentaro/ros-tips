@@ -36,7 +36,7 @@ Compile & Execute
 
 Example
 +++++++
-.. literalinclude:: video_capture_with_c_opencv_assets/video_capture.c
+.. literalinclude:: video-capture-with-c-opencv_assets/video_capture.c
   :language: c
 
 More information: https://github.com/wkentaro/c-opencv/tree/master/camera_capture

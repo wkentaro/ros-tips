@@ -1,8 +1,9 @@
+=========================
 Usage of sqlite3 & Python
 =========================
 
 Installation
-++++++++++++
+============
 Install sqlite3 from command line::
 
   $ brew install sqlite3 # sqlite command on Mac OS X
@@ -10,7 +11,7 @@ Install sqlite3 from command line::
 
 
 Get data from command line
-++++++++++++++++++++++++++
+==========================
 
 sqlite3 interpreter from command line::
 
@@ -22,7 +23,7 @@ sqlite3 interpreter from command line::
 
 
 Manage SQLite3 with Python
-++++++++++++++++++++
+==========================
 
 Connect database::
 
