@@ -19,3 +19,14 @@ The code is open source, and `available on github`_.
    tips/makefile-to-compile-c++-with-opencv
    tips/create-plot-animation-with-python-and-matplotlib
    tips/camera-capture-with-python-and-opencv
+   tips/apache-config-for-wsgi-python
+   tips/generate-gh-pages-with-sphinx
+   tips/raspi-todo-first
+   tips/send-mail-from-cmdline-yosemite
+   tips/sudo-from-web
+   tips/usage-of-nkf
+   tips/usage-of-qpdf
+   tips/usage-of-sklearn
+   tips/usage-of-sqlite3
+   tips/usage-of-vim-surround
+   tips/video-capture-with-c-opencv
