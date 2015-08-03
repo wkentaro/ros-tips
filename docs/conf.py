@@ -4,6 +4,8 @@ import sys
 import os
 import shlex
 
+from recommonmark.parser import CommonMarkParser
+
 
 extensions = [
     'sphinx.ext.mathjax',
@@ -11,8 +13,10 @@ extensions = [
 
 templates_path = ['_templates']
 
-#source_suffix = ['.rst', '.md']
-source_suffix = '.rst'
+source_parsers = {
+    '.md': CommonMarkParser,
+}
+source_suffix = ['.rst', '.md']
 
 master_doc = 'index'
 project = u'wkentaro tips'

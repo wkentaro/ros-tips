@@ -6,11 +6,11 @@ What is this?
 -------------
 **before**
 
-.. image:: use-old-github-header/image_2.png
+.. image:: use-old-github-header_assets/image_2.png
 
 **after**
 
-.. image:: use-old-github-header/image_1.png
+.. image:: use-old-github-header_assets/image_1.png
 
 
 How To
@@ -23,6 +23,6 @@ How To
 
 2. Setup Chrome Extention
 
-.. image:: use-old-github-header/image_0.png
+.. image:: use-old-github-header_assets/image_0.png
 
 .. warning:: Don't remove donloaded repository to keep using the extention.
